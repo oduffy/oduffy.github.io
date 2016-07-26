@@ -16,7 +16,6 @@ h1 {
 ul {
 	padding: 10px;
 	text-align: center;
-	color: black;
 	font-size: 20px;
 
 }
@@ -28,5 +27,6 @@ li {
 
 a { 
  color: black; 
+ font-family: 'Domine', cursive;
 }
 
