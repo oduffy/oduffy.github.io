@@ -11,6 +11,7 @@
 	font-size: 100px;
 }
 
+
 .dropdown-toggle{ 
     padding: 200px 0px 0px 0px; 
 	font-size: 15px;	
@@ -33,12 +34,10 @@
 	padding-left: 25px;
 }
 
+
 .container-fluid {
 	background-color: white;
 }
-
-a:hover { 
- color: red; 
 
 
 
