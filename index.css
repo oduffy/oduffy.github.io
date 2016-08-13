@@ -1,32 +1,46 @@
-header {
+
+.jumbotron {
 	text-align: center;
+    padding: 200px 0px 150px 0px;
+	min-height: 600px;
 	background-image: url("https://davidgriffen.co.uk/food-photography-blog/wp-content/uploads/2014/11/sour-dough-01-6140.jpg");
 	background-size: cover;
-    padding: 150px 0px 150px 0px;
-    zoom: 125%;
-
-}
-h1 {
 	font-family: 'Pacifico', cursive;
 	color: white;
 	border-color: black;
-	font-size: 70px;
+	font-size: 100px;
 }
 
-ul {
-	padding: 10px;
-	text-align: center;
-	color: black;
+.dropdown-toggle{ 
+    padding: 200px 0px 0px 0px; 
+	font-size: 15px;	
+}
+
+.navbar-brand {
 	font-size: 20px;
-
+	float: left;
 }
 
-li {
-	display: inline;
-	padding: 0px 10px 0px 10px;
+#navbar1 {
+	padding-right: 10px;
+}
+	
+	a.button:hover {
+ color: red; }
+
+
+#navbar2 {
+	padding-left: 25px;
 }
 
-a { 
- color: black; 
+.container-fluid {
+	background-color: white;
 }
+
+a:hover { 
+ color: red; 
+
+
+
+
 
