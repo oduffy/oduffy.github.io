@@ -34,11 +34,98 @@
 }
 
 
-.container-fluid {
-	background-color: white;
+
+
+.dropdown-toggle {
+ float:none;
+ display: inline-block;
+ padding: .5em 1em;
+ background: white;
+ border-radius: .2em .2em 0 0;
+}
+ul.dropdown-menu {
+ display:none;
+ position: absolute;
+ top: 100%;
+ margin-top: .5em;
+ background: white;
+ min-width: 12em;
+ padding: 0;
+ border-radius: 0 0 .2em .2em;
+   li {
+     list-style-type: none;
+     a {
+       text-decoration: none;
+       padding: .5em 1em;
+       display: block;
+     }
+  }
+}
+
+h3 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 90px;
 }
 
 
 
+blockquote {
+font-family: Georgia, serif;
+font-size: 25px;
+font-style: italic;
+width: 500px;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+padding-bottom: 50px;
+padding-top: -20px;
+line-height: 1.45;
+position: relative;
+color: #383838;
+text-align: center;}
 
 
+blockquote:before {
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: 0px;
+top: -20px;
+color: #7a7a7a;
+}
+
+
+blockquote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
+}
+
+h2 {
+	font-family: 'Dancing Script', cursive;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	font-size: 60px;
+
+}
+
+h5 { 
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+ }
+
+
+#map {
+        width: 100%;
+        height: 400px;
+     }
+
+#about {
+  color:inherit;
+  text-decoration: none;
+ }     
