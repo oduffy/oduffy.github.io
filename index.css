@@ -196,3 +196,7 @@ background: none;
 .navbar {
 	background-color: white;
 }
+
+ul .dropdown-menu a:hover { 
+background-color: #B4EEB4; }
+
