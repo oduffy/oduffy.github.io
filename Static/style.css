@@ -1,0 +1,119 @@
+.brand-centered {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.brand-centered .navbar-brand {
+  display: flex;
+  align-items: center;
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; 
+  color: rgb(13,9,44);
+  font-size: 30px;
+}
+.navbar-toggle {
+    z-index: 1;
+}
+
+.navbar-alignit .navbar-header {
+	  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 50px;
+}
+.navbar-alignit .navbar-brand {
+	top: 50%;
+	display: block;
+	position: relative;
+	height: auto;
+	transform: translate(0,-50%);
+	margin-right: 15px;
+  margin-left: 15px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	z-index: 9999;
+}
+
+body {
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  font-size: 20px;
+}
+
+
+h3 {
+  display: inline-block;
+  padding: 25px;
+  background: rgb(13,9,44);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 30px;
+}
+
+h1 {
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  text-align: center;
+  font-size: 22px;
+  color: rgb(13,9,44);
+
+}
+
+p {
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  color: rgb(13,9,44);
+  font-size: 30px;
+  padding: 25px;
+  font-style: bold;
+  background: rgba(205, 234, 255, .7);
+}
+
+#about {
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  color: rgb(13,9,44);
+  font-size: 50px;
+
+}   
+
+
+
+
+.reading-time {
+    display: inline-block;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #cccbcc;
+    border-top-color: rgb(13,9,44);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(13,9,44);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(13,9,44);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(13,9,44);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    color: white;
+    font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1em;
+    background-color: rgb(13,9,44);
+  }
