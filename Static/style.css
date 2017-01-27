@@ -37,6 +37,7 @@
 	z-index: 9999;
 }
 
+
 body {
   font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
   font-size: 20px;
@@ -60,6 +61,22 @@ h1 {
 
 }
 
+
+h2 {
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  text-align: center;
+  font-size: 22px;
+  color: rgb(13,9,44);
+
+}
+
+h4 {
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  text-align: center;
+  font-size: 22px;
+  color: rgb(13,9,44);
+}
+
 p {
   font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
   color: rgb(13,9,44);
@@ -71,11 +88,33 @@ p {
 
 #about {
   font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
-  color: rgb(13,9,44);
+  color: rgba(205, 234, 255,);
   font-size: 50px;
+  text-align: center;
 
 }   
 
+
+
+#Instagram {
+
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(13,9,44);
+
+
+}
+
+#Youtube {
+
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(13,9,44);
+
+
+}
 
 
 
@@ -83,10 +122,10 @@ p {
     display: inline-block;
     padding: 10px;
     padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding-right: 8px;
+    padding-bottom: 40px;
     padding-left: 10px;
-    width: 45px;
+    width: 55px;
     height: 45px;
     border: 2px solid #cccbcc;
     border-top-color: rgb(13,9,44);
@@ -117,3 +156,121 @@ p {
     line-height: 1em;
     background-color: rgb(13,9,44);
   }
+
+.reading-time2 {
+    display: inline-block;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 8px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    width: 55px;
+    height: 45px;
+    border: 2px solid #cccbcc;
+    border-top-color: rgb(13,9,44);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(13,9,44);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(13,9,44);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(13,9,44);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    color: rgb(13,9,44);
+    font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1em;
+    background-color: white;
+  }
+
+.fairytale
+{
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 15px;
+  color: rgb(13,9,44);
+}
+
+.news
+{
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 15px;
+  color: rgb(13,9,44);
+}
+
+#tedtalks
+{
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 15px;
+  color: rgb(13,9,44);
+}
+
+@mixin sticky-footer($footer-height, $wrapper-selector: unquote("#wrapper"), $container-selector: unquote("#container"), $footer-selector: unquote("#footer")) {
+  html, body {
+    height: 100%;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  #{$wrapper-selector} {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -$footer-height;
+    #{$container-selector} {
+      padding: 0 0 $footer-height 0;
+    } 
+  }
+  #{$footer-selector} {
+    height: $footer-height; 
+  }
+}
+
+
+@include sticky-footer(30px);
+
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+html,body,#wrapper,#container,#footer {
+  width:100%;
+}
+#wrapper {
+  background: white;
+  margin: 0;
+  padding: 5% 0 0;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 2.5em;
+  color: #555;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+#footer {
+  background: #F7A9B9;
+}
+
+.circular {
+   width: 300px
+   height: 300px;
+   border-radius: 150px;
+   -webkit-border-radius: 150px;
+}
+
